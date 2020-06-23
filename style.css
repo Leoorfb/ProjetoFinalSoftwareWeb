@@ -1,0 +1,262 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/*----- NavBar -----*/
+
+.nav-bar{
+  top: 0;
+  position: sticky;
+  z-index: 2;
+}
+
+.nav-bar .fa-bars{
+  font-size: 35px;
+  color: #000;
+}
+
+.navbar-brand{
+  font-weight: bold;
+  font-size: 50px;
+  color: #000;
+}
+
+.navbar-brand span{
+  color: #FFC01E;
+}
+
+.navbar{
+  background-color:#ececec;
+}
+
+.navbar-toggler{
+  outline: none !important;
+}
+
+.navbar-nav{
+  float: right;
+  text-align: right;
+}
+
+.nav-link{
+  color: #000 !important;
+}
+
+.nav-item:hover{
+  background:#f9f9f9 !important;
+  text-decoration: underline;
+  transition: 1s;
+  
+}
+
+/*----- About -----*/
+
+.about{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background:#0d0c0a;
+  background-image:url("img/sobre1.jpg");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-attachment: fixed;
+  color: #FDF8DF;
+}
+
+.about p{
+  text-align: justify;
+  width: 75%;
+  padding-left: 25%
+}
+
+/*----- Serviços -----*/
+.divisao{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.services{
+  padding-bottom: 50px;
+  padding-left: 10%;
+  background: #fff;
+}
+
+.services h1{
+  padding-bottom: 15px;
+}
+
+.services-text{
+  color: #0f1425;
+}
+
+.services-box{
+  background-image: linear-gradient(to bottom right, #FF6F1E , #FFC01E);
+  color:#666;
+  padding: 15px;
+  margin-top: 25px;
+  border-radius: 50px;
+  width:375px;
+  height:500px;
+}
+
+.services-box p{
+  padding-top: 40px;
+  margin: 3px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.services-box img{
+  width: 300px;
+  height: 350px;
+  padding-top: 20px;
+  padding-left: 50px;
+}
+
+.services-box:hover{
+  background-image: linear-gradient(to bottom right , #FFC01E, #FF6F1E);
+  color: #0f1425;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  transition: 1s;
+}
+
+/*----- Internacional -----*/
+
+.Internacional{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background:#0f1425;
+  color: #FDF8DF;
+}
+
+.Internacional p{
+  text-align: justify;
+  width: 75%;
+  padding-left: 25%
+}
+
+.Internacional img{
+  padding-left: 25%
+}
+/*----- parceiros -----*/
+
+.resume{
+  padding-bottom: 100px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.parceiro img{
+  width: 150px;
+  height: 150px;
+  border-width: 5px;
+}
+
+.parceiro{
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+}
+
+/*----- acompanhamento -----*/
+
+.processo{
+  padding-top: 100px;
+  padding-bottom: 150px;
+  background:#171717;
+  background-image: url(img/processo1.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  color: #FDF8DF;
+}
+
+.processo .formulario{
+  padding-left:10%;
+}
+
+.processo .formulario button{
+  position: absolute;
+  left: 48%;
+  width: 150px;
+  padding: 10px;
+}
+
+/*----- busca -----*/
+
+.busca{
+  padding-top: 100px;
+  padding-bottom: 150px;
+  padding-left: 10%;
+  padding-right: 10%;
+  background:#ececec;
+  color:#1c233f;
+}
+
+.busca .formulario{
+  padding-left:500px;
+}
+
+.busca button{
+  position: absolute;
+  left: 45%;
+  width: 150px;
+  padding: 10px;
+}
+
+/*----- Contato -----*/
+.contact{
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+  padding-top: 20px;
+  background:#F2BD00;
+  color: #0f1425);
+}
+.left-column{
+  padding-bottom: 50px;
+  border-style: solid;
+  border-width:0px 1px 0px 0px;
+}
+
+.contact h3{
+  padding-bottom: 25px;
+}
+
+.contact .formulario{
+  padding-left:50px;
+  padding-right:50px;
+}
+
+.contact button{
+  position: absolute;
+  left: 40%;
+  width: 150px;
+  padding: 10px;
+}
+
+.contact span{
+  font-size: 30px;
+  padding:0 10px;
+}
+
+.contact p{
+  font-weight: bold;
+}
+.contact .social{
+  font-size: 25px;
+}
+
+/*----- Footer -----*/
+.footer{
+  background : #0f1425;
+  height: 50px;
+  padding-top:10px;
+  color:#FDF8DF;
+}
+
+.fa-heart-o{
+  color: red;
+}
+
